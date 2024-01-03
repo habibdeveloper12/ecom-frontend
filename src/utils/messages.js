@@ -1,0 +1,27 @@
+export const messages = {
+  passwordRequired: "Please enter a password",
+  passkeyRequired: "Please enter a passkey",
+  emailRequired: "Please enter your mail id",
+  emailStandard: {
+    mailFormat: "Use the standard domain format, like example.com",
+    mailaterror: "Include a domain name and @",
+    twoAt: "please correct double @",
+  },
+  fnameError: "Invalid first name",
+  lnameError: "Invalid last name",
+  forgetDate: "Please  enter your date of birth",
+  country: "please select country",
+  shortPassword: "Sorry that password is too short",
+  longPassword: "Sorry that password is too long",
+  passwordStandard: {
+    uppercase: "Uppercase letter is missing",
+    lowercase: "Lowercase letter is missing",
+    number: "Number is missing",
+    specialChar: "Special character is missing",
+  },
+  phoneNumberRequired: "Please enter a phone number",
+  firstName: "Please enter your first name",
+  lastName: "Please enter your last name",
+  emailError: "The address doesn't seem right",
+  confirmPassword: "Sorry, password doesn't match",
+};
